@@ -1,0 +1,23 @@
+{
+  "name": "exercicioTDD",
+  "version": "1.0.0",
+  "description": "Pequeno projeto destinado à aprendizagem de teste unitário automatizado usando o Mocka e padrão modular n-tier",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovnny/exercicioTDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovnny/exercicioTDD/issues"
+  },
+  "homepage": "https://github.com/ovnny/exercicioTDD#readme"
+}
