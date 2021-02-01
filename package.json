@@ -1,5 +1,5 @@
 {
-  "name": "exercicioTDD",
+  "name": "exerciciotdd",
   "version": "1.0.0",
   "description": "Pequeno projeto destinado à aprendizagem de teste unitário automatizado usando o Mocka e padrão modular n-tier",
   "main": "index.js",
@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node src/index.js",
     "test": "npx mocha --parallel --exit test/",
     "test:dev": "npx mocha test/ -w",
-    "test:cov": "npx nyc --reporters=html, text npm test"
+    "test:cov": "npx nyc --reporter=html npm test"
   },
   "repository": {
     "type": "git",
