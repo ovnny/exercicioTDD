@@ -53,8 +53,8 @@ describe('todoService', () => {
             todoService = new TodoService(dependencies)
         })
 
-        it('shouldn\'t save todo item with invalid data')
         it('should save todo item with late status when the property is turther than today')
+        it('shouldn\'t save todo item with invalid data')
         it('should save todo item with pending status')
         
     })
